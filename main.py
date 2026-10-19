@@ -258,7 +258,19 @@ def main():
             view_books(books)
         elif choice == "3":
             search_book(books)
-    
+        elif choice == "4":
+            issue_book(books)
+        elif choice == "5":
+            return_book(books)
+        elif choice == "6":
+            delete_book(books)
+        elif choice == "7":
+            show_statistics(books)
+        elif choice == "8":
+            print("Exiting library management application.")
+            break
+        else:
+            print("Invalid choice. Please select a number from 1 to 8.")
 
 if __name__ == "__main__":
     main()
