@@ -267,11 +267,10 @@ def main():
         elif choice == "7":
             show_statistics(books)
         elif choice == "8":
-            print("Thank you for using the Library Management System!")
+            print("Exiting library management application.")
             break
         else:
-            print("Invalid choice. Please select from 1 to 8.")
-
+            print("Invalid choice. Please select a number from 1 to 8.")
 
 if __name__ == "__main__":
     main()
